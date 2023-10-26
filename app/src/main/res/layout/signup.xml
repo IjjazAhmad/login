@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Signup"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:paddingHorizontal="10sp"
+        android:layout_marginBottom="15sp"
+        android:background="@drawable/shadow"
+        android:drawableLeft="@drawable/user_ico"
+        android:drawablePadding="5sp"
+        android:elevation="10dp"
+        android:hint="user name"
+        android:inputType="text"
+        android:textSize="23sp" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:paddingHorizontal="10sp"
+        android:layout_marginBottom="15sp"
+        android:background="@drawable/shadow"
+        android:drawableLeft="@drawable/email_ico"
+        android:drawablePadding="5sp"
+        android:elevation="10dp"
+        android:hint="email"
+        android:inputType="text"
+        android:textSize="23sp" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="15sp"
+        android:background="@drawable/shadow"
+        android:drawableLeft="@drawable/pass_ico"
+        android:drawablePadding="5sp"
+        android:elevation="10dp"
+        android:hint="password"
+        android:inputType="text"
+        android:paddingHorizontal="10sp"
+        android:textSize="23sp" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5sp"
+        android:background="@drawable/shadow"
+        android:drawableLeft="@drawable/pass_ico"
+        android:drawablePadding="5sp"
+        android:elevation="10dp"
+        android:hint="confirm password"
+        android:inputType="text"
+        android:paddingHorizontal="10sp"
+        android:textSize="23sp" />
+    <CheckBox
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15sp"
+        android:checked="true"
+        android:text="Remember me"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5sp"
+        android:background="@drawable/cus_btn_bg"
+        android:elevation="10dp"
+        android:paddingHorizontal="10sp"
+        android:text="SIGNUP"
+        android:textSize="23sp" />
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Already have an account \t LOGIN "
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+
+</LinearLayout>
